@@ -615,8 +615,6 @@ Browser
 
 # Reflection
 
-# Reflection
-
 Today I built the first complete full-stack workflow of ResearchOS.
 
 The FastAPI backend was successfully set up with the first API endpoint, and the Next.js frontend was initialized and connected to it. I learned how the browser communicates with the frontend, how the frontend sends HTTP requests to the backend, how FastAPI processes those requests, and how JSON responses are returned and rendered in the browser.
