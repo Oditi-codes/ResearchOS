@@ -147,6 +147,134 @@ It pushes the local `main` branch to the `origin` remote and establishes `origin
 
 ---
 
+# Backend
+
+--- 
+
+## Q1. What is FastAPI?
+
+### Beginner Answer
+
+FastAPI is a Python framework used to build APIs.
+
+### Strong Candidate Answer
+
+FastAPI is a modern Python web framework designed for building high-performance APIs using Python type hints. It provides request validation, automatic documentation, asynchronous support, and efficient HTTP request handling.
+
+### Why Interviewers Ask
+
+To check understanding of backend frameworks and API development.
+
+### Common Mistake
+
+Saying FastAPI is a database or frontend framework.
+
+---
+
+## Q2. What happens when a request reaches a FastAPI application?
+
+### Beginner Answer
+
+FastAPI executes the required function.
+
+### Strong Candidate Answer
+
+An incoming HTTP request is received by the FastAPI server, processed through middleware layers such as CORS, matched against registered routes, passed to the corresponding endpoint function, and the returned Python object is serialized into a response, usually JSON.
+
+### Why Interviewers Ask
+
+Tests understanding of request lifecycle.
+
+---
+
+## Q3. What is middleware?
+
+### Beginner Answer
+
+Middleware handles requests before they reach APIs.
+
+### Strong Candidate Answer
+
+Middleware is a software layer that intercepts HTTP requests and responses to implement cross-cutting concerns such as authentication, logging, CORS, monitoring, and security checks without duplicating logic across individual endpoints.
+
+### Why Interviewers Ask
+
+Tests backend architecture understanding.
+
+---
+
+## Q4. What is CORS?
+
+### Beginner Answer
+
+CORS allows frontend and backend communication.
+
+### Strong Candidate Answer
+
+CORS is a browser security mechanism that controls whether a frontend from one origin can access resources from another origin. The backend explicitly defines allowed origins through HTTP headers.
+
+### Why Interviewers Ask
+
+Common issue in frontend-backend integration.
+
+---
+
+# Frontend
+
+---
+
+## Q1. Difference between Server Components and Client Components in Next.js?
+
+### Beginner Answer
+
+Server Components run on server and Client Components run in browser.
+
+### Strong Candidate Answer
+
+Server Components execute on the server and reduce client-side JavaScript while allowing efficient server-side rendering. Client Components execute in the browser and are required for interactive functionality using React hooks such as useState and useEffect.
+
+### Why Interviewers Ask
+
+Tests modern Next.js understanding.
+
+---
+
+## Q2. What is useState?
+
+### Beginner Answer
+
+useState stores values in React.
+
+### Strong Candidate Answer
+
+useState is a React hook that allows functional components to maintain state. Updating state through the setter function triggers React to re-render the component with the updated value.
+
+---
+
+## Q3. Why is fetch() asynchronous?
+
+### Beginner Answer
+
+Because APIs take time to respond.
+
+### Strong Candidate Answer
+
+fetch() is asynchronous because network operations involve unpredictable delays. Instead of blocking JavaScript execution, it returns a Promise that resolves when the response becomes available.
+
+---
+
+## Q4. What is a Promise in JavaScript?
+
+### Beginner Answer
+
+A Promise represents future data.
+
+### Strong Candidate Answer
+
+A Promise is an object representing the eventual completion or failure of an asynchronous operation. It allows JavaScript to handle operations that complete later, such as API calls.
+
+---
+
 # Last Updated
 
-Day 01
+Day 02

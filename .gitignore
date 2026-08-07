@@ -5,9 +5,12 @@ __pycache__/
 
 # Node
 node_modules/
+.next/
 
 # Environment
 .env
+.env.*
+!.env.example
 
 # VS Code
 .vscode/
